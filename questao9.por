@@ -5,20 +5,20 @@ programa {
     escreva("Digite sua renda mensal: ")
     leia(rendaMensal)
 
-    escreva("Digite o quanto de empréstimo que você quer: ")
+    escreva("Digite o quanto de emprÃ©stimo que vocÃª quer: ")
     leia(totalEmprestimo)
 
-    escreva("Digite a quantidade de prestações que você deseja pagar: ")
+    escreva("Digite a quantidade de prestaÃ§Ãµes que vocÃª deseja pagar: ")
     leia(prestacoes)
 
     limpa()
     escreva("\nRenda mensal do solicitante: ", rendaMensal)
-    escreva("\nEmpréstimo pedido: ", totalEmprestimo)
-    escreva("\nPrestações a ser pagadas: ", prestacoes)
+    escreva("\nEmprÃ©stimo pedido: ", totalEmprestimo)
+    escreva("\nPrestaÃ§Ãµes a ser pagadas: ", prestacoes)
     se(totalEmprestimo >= 10 * rendaMensal e prestacoes <= (30 / 100) * rendaMensal )
-      escreva("\nO empréstimo foi concedido.")
+      escreva("\nO emprÃ©stimo foi concedido.")
     senao
-     escreva("\nNão podemos concedir o empréstimo.")
+     escreva("\nNÃ£o podemos conceder o emprÃ©stimo.")
 
 
 
