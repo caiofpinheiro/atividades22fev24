@@ -15,7 +15,7 @@ programa {
     escreva("\nRenda mensal do solicitante: ", rendaMensal)
     escreva("\nEmpréstimo pedido: ", totalEmprestimo)
     escreva("\nPrestações a ser pagadas: ", prestacoes)
-    se(totalEmprestimo >= 10 * rendaMensal e prestacoes <= (30 / 100) * rendaMensal )
+    se(totalEmprestimo <= 10 * rendaMensal e prestacoes <= (30 / 100) * rendaMensal )
       escreva("\nO empréstimo foi concedido.")
     senao
      escreva("\nNão podemos conceder o empréstimo.")
